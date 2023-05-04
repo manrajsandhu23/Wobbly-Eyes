@@ -1,3 +1,61 @@
 body {
+  overflow: hidden;
   margin: 0;
+  padding: 0%;
+}
+#guide {
+  color: whitesmoke;
+  margin: 0;
+  padding: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0px;
+  font-size: 50px;
+  text-align: center;
+  font-family: Blemo, Poppins;
+  font-weight: bolder;
+}
+.main {
+  padding: 0px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  min-height: 100vh;
+  margin-left: 110px;
+}
+
+#eyes,
+#eyes img {
+  position: absolute;
+}
+.eyeL {
+  width: 108px;
+  bottom: 66px;
+  right: 65px;
+}
+.eyeR {
+  width: 108px;
+  bottom: 66px;
+  right: -55px;
+}
+@media all and (max-width: 650px) {
+  body {
+    background: black;
+  }
+  .titleText {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+}
+@media all and (min-width: 650px) {
+  #guide {
+    display: none;
+  }
 }
