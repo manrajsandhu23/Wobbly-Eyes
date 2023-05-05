@@ -2,7 +2,8 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0%;
-  background-color: d3d3d1;
+  background-color: #d3d3d1;
+  cursor: url("https://fav.farm/👁") 15 0, auto;
 }
 #guide {
   color: whitesmoke;
@@ -13,7 +14,7 @@ body {
 p {
   margin: 0;
   padding: 0px;
-  font-size: 50px;
+  font-size: 75px;
   text-align: center;
   font-family: Blemo, Poppins;
   font-weight: bolder;
