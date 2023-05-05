@@ -2,6 +2,7 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0%;
+  background-color: d3d3d1;
 }
 #guide {
   color: whitesmoke;
